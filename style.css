@@ -1,0 +1,248 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    width: 100%;
+}
+.menu ul{
+    width: 100%;
+    height: 30px;
+    background-color: darkslategrey;
+}
+.menu ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: slategray;
+}
+.menu{
+    background-image: url("image/pic2.jpg");
+background-size: cover;
+background-image: no-repeat;
+width: 100%;
+height: 100vh;
+
+}
+.content{
+    text-align: center;
+    padding-top: 50px;
+}
+.content h1{
+    color:white;
+
+}
+.content p{
+    text-align: center;
+    padding-left: 100px;
+    font-size: 25px;
+    color: white;
+
+}
+.music12{
+    background-image: url("image/pic3.jpg");
+    height: 100vh; 
+    color: tomato;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    width: 100%;
+}
+.music12 a i{
+    color: white;
+font-size: 20px;
+}
+.music12 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.music12 p{
+    color:white;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+.music12 button{
+    padding: 10px;
+    background-color: red;
+}
+.movie{
+    color: rgb(22, 20, 20);
+    text-align: center;
+    width: 100%;
+    
+
+}
+.movie button{
+    padding: 10px;
+    background-color: darkblue;
+}
+ img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.movie p{
+    font-size: 18px;
+}
+.movie h1{
+    padding-top: 50px;
+}
+.read{
+    background-color: blue;
+    padding: 10px;
+}
+ 
+.world{
+    width: 100%;
+    height: 400px;
+    background-image: url("image/pic4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+padding-top: 150px;
+color: teal;
+    
+}
+.world p{
+    font-size: 20px;
+}
+.card{
+width: 100%;
+
+}
+.card img{
+    padding-left: 200px;
+}
+.right{
+float: right;
+padding-top: 80px;
+}
+.more{
+    width: 100%;
+    background-color: dimgray;
+    height: 400px;
+padding-top: 10px;
+border:solid  darkblue;
+
+
+
+}
+.shop{
+    width: 20%;
+    margin-left: 200px;
+}
+.shop ul{
+    list-style-type: none;
+}
+.shop ul li{
+    font-size: 20px;
+    padding: 10px;
+
+}
+.shop ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.shop h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+div{
+    float: left;
+    
+}
+.orange ul{
+    list-style-type: none;
+}
+.orange ul li{
+    font-size: 20px;
+    padding: 10px; 
+}
+.orange ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.orange h2{
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.education ul{
+    list-style-type: none;
+}
+.education ul li{
+    font-size: 20px;
+    padding: 10px; 
+}
+.education ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.education h2{
+    color: white;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about ul{
+    list-style-type: none;
+}
+.about ul li{
+    font-size: 20px;
+    padding: 10px; 
+}
+.about ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+.about h2{
+    color: white;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer{
+    background-color: cadetblue;
+}
+
+    
+
+
+@media only screen and (max-width: 600px) {
+    .add {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+      
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+  }
